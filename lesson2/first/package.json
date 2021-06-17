@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "author": "sashkaool",
+  "license": "ISC",
+  "dependencies": {
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.2"
+  }
+}

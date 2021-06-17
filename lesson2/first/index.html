@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="calculator" class="calculator" style="display: block;">
+        <button id="to-timer" type="">Перейти на страницу с таймером</button>
+        <h3>Калькулятор дат</h3>
+        <form id="calcDate">
+        <label for="date1">
+            <b>Первая дата:</b>
+            <input type="date" name="date" id="date1" />
+        </label>
+        <label for="date2">
+            <b>Вторая дата:</b>
+            <input type="date" name="date" id="date2" />
+        </label>
+        <button type="submit">Рассчитать промежуток</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <div id="timer" class="timer" style="display: none;">
+        <button id="to-calc" type="">Перейти на страницу с калькулятором дат</button>
+        <br />
+        <p>Секундомер</p>
+        <div id="time">00:00:00</div>
+        <br />
+        <button id="start" type="">Старт</button>
+        <button id="stop" type="">Стоп</button>
+        <br /><br />
+        <label for="my-time">
+            Установите свое время: 
+            <input type="time" name="" id="my-time">
+            <button id="my-start">Старт</button>
+            <button id="my-stop">Стоп</button>
+        </label>
+        <div id="countdown" class="countdown" style="color: red; font-weight: 800; font-size: 24px;"></div>
+    </div>
+</body>
+</html>
